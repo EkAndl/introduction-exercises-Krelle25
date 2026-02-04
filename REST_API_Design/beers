@@ -1,0 +1,10 @@
+REST API Design (Beers)
+
+| HTTP Method | Endpoint    | Description                         |
+| ----------- | ----------- | ----------------------------------- |
+| POST        | /beers      | Create a new beer object            |
+| GET         | /beers      | Retrieve all beer objects           |
+| GET         | /beers/{id} | Retrieve a single beer object by ID |
+| PUT         | /beers/{id} | Update the entire beer object       |
+| PATCH       | /beers/{id} | Update part of the beer object      |
+| DELETE      | /beers/{id} | Delete a beer object                |
